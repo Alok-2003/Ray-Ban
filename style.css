@@ -80,10 +80,16 @@ html,body{
     /* background-color: yellow; */
 }
 #hleft .elem{
+    position: relative;
     height: 8vw;
     overflow: hidden;
 }
+#hleft .elem h1:nth-child(1){
+    top: 0;
+}
 #hleft .elem h1{
+    position: absolute;
+    top: 100%;
     line-height: 0.9;
     font-family: "kajiro";
     color: #fff;
